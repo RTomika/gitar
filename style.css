@@ -1,14 +1,14 @@
 body{
-    background-color: rgb(83, 0, 83);
+    background: darkmagenta;
     margin: 20px;
     font-family: Arial, Helvetica, sans-serif;
 }
 
 .keret{
-    width:40%;
+    width: 80%;
     border: 5px solid #666566;
     background: bisque;
-    box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.5);
+    box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.1);
     border-radius: 12px;
     padding: 11px;
 }
@@ -22,12 +22,12 @@ p{
     text-align: justify;
 }
 
-.hasab-bal{
+.hasab-bal {
     float: left;
     width: 40%;
 }
 
-.hasab-jobb{
+.hasab-jobb {
     float: right;
     width: 40%;
 }
@@ -36,47 +36,45 @@ h2, h3{
     text-align: center;
 }
 
-.kep, abra{
-    width: 20%;
+.kep, .abra {
+    width: 70%;
     height: auto;
-    border: 1px solid #ccc;
-    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.8);
+    border: 1px solid rgba(0, 0, 0, 0.1);
     border-radius: 5px;
     margin: auto;
     display: block;
 }
 
-.gitarkep-jobbra{
-    float: left;
-    margin: 0 15px 10px 20px;
-    width: 200px;
-    height: auto;
-    border: 1px solid #ccc;
-    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.8);
-    border-radius: 3px;
+.gitar-lista {
+    list-style: none;
 }
 
-.gitarkep1{
+.gitar-lista li {
+    border: 1px solid darkgrey;
+    border-radius: 8px;
+    text-align: justify;
+    padding: 10 px;
+    margin-bottom: 20px;
+}
+
+.gitar-kep {
+    border: 1px solid #ccc;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
     width: 120px;
     height: auto;
     float: left;
     margin: 0 15px 10px 0;
+}
+
+.gitar-kep-jobbra {
+    float: left;
+    margin: 0 15px 10px 20px;;
+    width: 200px;
+    height: auto;
     border: 1px solid #ccc;
-    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.8);
+    box-shadow: 2px 2px 5px rgb(0, 0, 0, 0.1);
 }
 
-.clear{
+.clear {
     clear: both;
-}
-
-.gitarlista{
-    list-style: none;
-}
-
-.gitarlista li{
-    border: 1px solid black;
-    border-radius: 5px;
-    text-align: justify;
-    padding: 6px 3px;
-    margin-bottom: 20px;
 }
